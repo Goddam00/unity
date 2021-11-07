@@ -1,4 +1,4 @@
 # unity
-branch list:
-master
-背景循環控制branch simpleBackground
+branch list:\n
+master\n
+背景循環控制branch simpleBackground\n
