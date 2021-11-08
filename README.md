@@ -2,7 +2,8 @@
 ## branch list:  
 * main
 * wj
+* yuchen
 ---
 
 ## TODO List
-* 背景循環控制branch simpleBackground  
+* 
