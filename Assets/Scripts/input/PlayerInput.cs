@@ -14,6 +14,20 @@ public class PlayerInput : ScriptableObject, InputActions.IGamePlayActions
         inputActions = new InputActions();
         inputActions.GamePlay.SetCallbacks(this);
     }
+    void OnDisable(){
+        DisableAllInputs();
+    }
+
+    public void EnableGamePlayInput(){
+        inputActions.GamePlay.Enable();
+        Cursor.lockState = CursorLockMode.Locked;
+        //Cursor.visible = false;
+    }
+
+    public void DisableAllInputs(){
+        inputActions.GamePlay.Disable();
+    }
+
     public void OnMove(InputAction.CallbackContext context)
     {
         if (context.phase == InputActionPhase.Performed){

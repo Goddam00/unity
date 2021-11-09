@@ -36,11 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\BackgroundScroller.cs" />
-     <Compile Include="Assets\Scripts\SimpleCameraController.cs" />
+     <Compile Include="Assets\Scripts\Misc\BackgroundScroller.cs" />
      <Compile Include="Assets\Scripts\input\inputActions.cs" />
      <Compile Include="Assets\Scripts\input\PlayerInput.cs" />
      <Compile Include="Assets\Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\Misc\SimpleCameraController.cs" />
+     <Compile Include="Assets\Scripts\Misc\Viewport.cs" />
+     <Compile Include="Assets\Scripts\System Modules\Singleton.cs" />
     <Reference Include="UnityEngine">
         <HintPath>E:\unity\2020.3.22f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
